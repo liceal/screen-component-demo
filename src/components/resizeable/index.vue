@@ -260,7 +260,7 @@ export default {
       }
     }
   },
-  emits: ['refLineParams', 'resizestop'],
+  emits: ['refLineParams', 'resizestop', 'dragging'],
   data: function () {
     return {
       left: this.x,

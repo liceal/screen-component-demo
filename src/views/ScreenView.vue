@@ -7,7 +7,7 @@ import Drag2 from './drag2.vue'
 export default defineComponent({
   setup() {
     return () => [
-      <FullScreenContainer width="1920" height="906">
+      <FullScreenContainer width={1920} height={906}>
         <Drag2 />
       </FullScreenContainer>
       // <Drag />

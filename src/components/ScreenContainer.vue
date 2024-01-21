@@ -42,9 +42,9 @@ export default defineComponent({
 
     // 获取等比容器的父级容器相对大小
     const getParentWH = () => {
-      const parent = container.value.parentElement
-      parentW.value = parent.offsetWidth
-      parentH.value = parent.offsetHeight
+      const parent = container.value?.parentElement
+      parentW.value = parent?.offsetWidth
+      parentH.value = parent?.offsetHeight
     }
 
     const cpStype = computed(() => {

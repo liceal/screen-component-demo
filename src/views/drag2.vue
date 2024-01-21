@@ -26,7 +26,7 @@ export default defineComponent({
           y={251}
           h={200}
           w={200}
-          onDragging={(left, top) => {
+          onDragging={(left: any, top: any) => {
             console.log({
               x: left,
               y: top
