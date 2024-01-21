@@ -4,6 +4,8 @@
 - [x] 适应性，兼容模块拖拽放大缩小
 - [ ] 自定义大小适应性
 
+演示：https://screen-component-demo.vercel.app/
+
 ## Project Setup
 
 ```sh
